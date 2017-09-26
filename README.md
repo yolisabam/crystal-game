@@ -1,1 +1,2 @@
-# crystal-game
+# The Planet Game
+
