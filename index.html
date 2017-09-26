@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  
+  
+  <!-- Style -->
+  <!-- reset -->
+  <link rel="stylesheet" href="assets/css/reset.css"/>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <!-- Bootstrap & -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+
+</head>
+<body>
+<div class="jumbotron">
+  <center><h1>THE SOLAR SYSTEM GAME</h1>
+  <h3>NUMBER TO GUESS<br>
+  <span id="random-number"></span></h3></center>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div id="constant-game-data">
+      <div id="wins"></div>
+      <div id="losses"></div>
+    </div>
+  </div>
+  <div class="row">
+    <center><div class="btn-group">
+      <div class="col-md-3">
+        <button class="btn btn1"><img src="assets/images/neptune.png" alt="Neptune"></button>
+      </div>
+      <div class="col-md-3">  
+        <button class="btn btn2"><img src="assets/images/mars.png" alt="Neptune"></button>
+      </div>   
+      <div class="col-md-3">
+        <button class="btn btn3"><img src="assets/images/other.png" alt="Neptune"></button>
+      </div>
+      <div class="col-md-3">  
+        <button class="btn btn4"><img src="assets/images/venus.png" alt="Neptune"></button>
+      </div>  
+    </div></center>
+  </div>
+  <br>
+  
+  <div class="row">
+    <div id="current-game-data">
+      <center><h3>RESULT<br>
+      <div id="result"></div><h3></h3>
+    </div>
+  </div>
+</div>
+
+   <div class= "navbar navbar-default navbar-fixed-bottom"></div>
+</div> 
+  <!-- JAVASCRIPT/JQUERY  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/game.js"></script>
+
+</body>
+</html>

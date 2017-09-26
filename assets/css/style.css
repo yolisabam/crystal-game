@@ -1,0 +1,30 @@
+body {
+  background-image: url(file:///Users/yolisabam/Desktop/crystal-game/assets/images/background.jpg);
+}
+
+h1, h3 {
+  font-family: 'Monoton', cursive;
+}
+
+#current-game-data h3 {
+  color: white;
+}
+
+#constant-game-data {
+  color: white;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  background-color:none;
+  background:none;
+  border:none;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  background: none;
+}
